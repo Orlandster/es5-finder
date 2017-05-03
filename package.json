@@ -1,0 +1,11 @@
+{
+  "name": "es5-finder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Orlando Wenzinger <orlando.wenzinger@bluewin.ch> (https://showcase.orlandster.com/)",
+  "license": "MIT"
+}
