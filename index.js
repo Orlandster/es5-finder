@@ -1,6 +1,7 @@
 const walk = require('./src/walk');
+const parse = require('./src/parse');
 
-walk(__dirname + '/../webpack', (err, results) => {
+walk(__dirname + '/../webpack/lib', (err, files) => {
   if (err) throw err;
-  console.log(results);
+  parse(files);
 });
